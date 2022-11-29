@@ -1,0 +1,89 @@
+body{
+    background:linear-gradient(to right,rgb(255, 32, 28), rgb(249, 249, 29));
+    font-family:'Times New Roman', Times, serif;
+    font-size: 150%;
+    margin: 1px;
+    padding: 50px;
+    text-align: center;
+    width: 50%;
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    border: 1px solid;
+    margin-bottom: 25px;
+}
+.container{
+    background: white;
+    margin: 2em auto;
+    padding: 2em 2em;
+    display:inline-block;
+    box-shadow: 0px 0px 30px 25px;
+    position: absolute;
+    max-width: 500px;
+    border-radius: 7px;
+    line-height: 30px;
+}
+
+.register-form{
+    text-align: center;
+    font-size: 20px;
+}
+.register{
+    background: linear-gradient(to right, rgb(255, 32, 28),rgb(249, 249, 29));
+    padding: 16px 30px;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.9;
+    margin: 8px 0;
+    color: black;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.register:hover{
+    opacity: 1;
+    box-shadow: 0px 5px 5px 0px;
+}
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+
+.Play{
+    background: rgb(245, 137, 22);
+    padding: 16px 30px;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.9;
+    margin: 8px 0;
+    color: black;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.Play:hover{
+    opacity: 1;
+    box-shadow: 0px 5px 5px 0px;
+}
+
+.End{
+    background:rgb(255, 88, 10);
+    padding: 16px 30px;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.9;
+    margin: 8px 0;
+    color: black;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.End:hover{
+    opacity: 1;
+    box-shadow: 0px 5px 5px 0px;
+}
